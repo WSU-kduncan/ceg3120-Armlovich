@@ -44,32 +44,41 @@
 	- a file that contains things that you want ignored via git status
 		- vim .gitignore
 			- list of anything you want to be ignored
-7. push
+
+6. push
 	- pushes changes committed to github
 	- git push
-8. fetch
+
+7. fetch
 	- fetches the file from the remote (GitHub)
 	- downloads the changes from the remote but doesn't merge it to your local
 	- git fetch
-9. merge
+
+8. merge
 	- merges your fetched files into your local cloned repo
 	- git merge
-10. pull
+
+9. pull
 	- pull is a combination of both fetch and merge
 	- git pull
-11. branch
-	-
-12. checkout
 
-13. init
+10. branch
+	
+11. checkout
 
-14. remote
+12. init
+
+13. remote
 
 ### git files & folders
-1. .gitfolder
+
+1. gitfolder
+
 
 2. .gitignore file
-	- this is listed above and will be moved down here
+        - a file that contains things that you want ignored via git status
+                - vim .gitignore
+                        - list of anything you want to be ignored by the `git status` command.
 
 3. .git/hooks
 
