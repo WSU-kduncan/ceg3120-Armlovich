@@ -63,6 +63,7 @@
 	- git pull
 
 10. branch
+	- creats a 
 	
 11. checkout
 
@@ -72,15 +73,16 @@
 
 ### git files & folders
 
-1. gitfolder
+1. .gitfolder
 
 
 2. .gitignore file
-        - a file that contains things that you want ignored via git status
-                - vim .gitignore
-                        - list of anything you want to be ignored by the `git status` command.
+	- a file that contains things that you want ignored via git status
+	- list of anything you want to be ignored by the `git status` command.
+	- vim .gitignore
 
 3. .git/hooks
+	- 
 
 #### GitHub
 1. pull requests
