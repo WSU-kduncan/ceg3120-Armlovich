@@ -63,7 +63,11 @@
 	- git pull
 
 10. branch
-	- creats a 
+	- creates a new location where changes can be made to a core program without affecting the main program.
+	- each branch can have changes made, then returned to the Main branch.
+	- this allows the Main to remain a working program.
+	- git branch (name)
+	- git checkout (branch name) to change branches
 	
 11. checkout
 
