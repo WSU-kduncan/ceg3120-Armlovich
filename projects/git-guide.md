@@ -1,16 +1,17 @@
 # Markdown guide
-1. heading 	# H1
-		## H2 ... etc
-2. Bold            **bold text**
-3. Italic		*italicized text*
-4. Blockquote	> blockquote
-5. Ordered List	1. first item
-		2. Second item
-6. Unordered List	- First item
-7. Code		`code`
-8. Link		[Links](https://www.example.com)
-9. Image		![alt text](image.jpg)
-10. Source Link	[Source for guide](https://www.markdownguide.org/cheat-sheet/)
+1.  heading 		# H1
+			## H2 ... etc
+2.  Bold           	**bold text**
+3.  Italic		*italicized text*
+4.  Blockquote		> blockquote
+5.  Ordered List	1. first item
+ 			2. Second item
+6.  Unordered List	- First item
+7.  Code		`code`
+8.  Link		[Links](https://www.example.com)
+9.  Image		![alt text](image.jpg)
+10. Source Link		[Source for guide](https://www.markdownguide.org/cheat-sheet/)
+11. Crossing out	~~crossed out~~
 
 ## command line git:
 1. status
@@ -22,14 +23,14 @@
 2. clone
 	- clones the repo from the remote (GitHub)
 		- if you clone the repo from the remote while already having a clone of the repo
-			- you will recursively overwrite the current clone. 
-			- this will cause you to lose everything not already pushed to the remote repo
+		- you will recursively overwrite the current clone. 
+		- this will cause you to lose everything not already pushed to the remote repo
 	- git clone "repo-name@github.com"
 3. add
 	- adds files that need to be added for tracking
 		- this adds files to be tracked, but doesn't commit the files for pushing to the remote
 		- multiple files can be added at once
-			- just put a (space) between the files you wish to add
+		- just put a (space) between the files you wish to add
 	- git add (replace-with-file name)
 4. rm
 	- removes files from your local system
@@ -42,8 +43,9 @@
 		- this can be shortcutted by using *git commit -m "commit message"
 6. .gitignore
 	- a file that contains things that you want ignored via git status
-		- vim .gitignore
-			- list of anything you want to be ignored
+	
+	- command: vim .gitignore
+		- list of anything you want to be ignored
 
 6. push
 	- pushes changes committed to github
@@ -64,9 +66,10 @@
 
 10. branch
 	- creates a new location where changes can be made to a core program without affecting the main program.
-	- each branch can have changes made, then returned to the Main branch.
-	- this allows the Main to remain a working program.
+		- each branch can have changes made, then returned to the Main branch.
+		- this allows the Main to remain a working program.
 	- git branch (name)
+	
 	- git checkout (branch name) to change branches
 	
 11. checkout
@@ -79,7 +82,9 @@
 
 ### git files & folders
 
-1. .gitfolder
+1. .git folder
+	- this folder contains all the information necessary for commits, remote repository addresses and other things relating to your GitHub account.
+	- this log can help you roll back to a previous commit or change if necessary 
 
 
 2. .gitignore file
@@ -96,8 +101,15 @@
 	- this request can be approved, permanently denied, or denied until further changes are made.
 
 2. SSH authentication to repositories
+	- go to settings on GitHub and prepare for pasting in a public key,
+	- on ubuntu, use the command : ssh-keygen -t ed25519 ; to generate a new SSH key pair
+	- cd into the .ssh folder, then vim the content of ed25519.pub file.
+	- copy the file into the field on the GitHub settings tab for a new ssh key.
+	- save and enjoy your ability to ssh into your repos from the computer with the private key
+	- or save the key onto a thumbdrive and transfer it from computer to computer (not safe)
+		- a better way would be to use the ssh-keygen command to set up new key-pairs on each new computer
 
 3. git rm --cached
-	- removes from git tracking. 
+	- removes changes, specifically files and folders, from git tracking. 
 	- the file still exists, it just won't be on github for everyone to see.
 	- still have to git commit
