@@ -1,7 +1,5 @@
 # Markdown guide
-1.  heading 	
-# H1
-## H2 ... etc
+1.  heading 	# H1, ## H2 ... etc
 2.  Bold :           	**bold text**
 3.  Italic :		*italicized text*
 4.  Blockquote :	> blockquote
