@@ -13,6 +13,10 @@
 7.  Code :		`code`
 8.  Link :		[Links](https://www.example.com)
 9.  Image :		![alt text](image.jpg)
+	1. first, you will need to upload the image to GitHub via the website
+	2. second, pull the changes from your repo to your local
+	3. third, either, mv (move) or cp (copy) the image to a folder you want to contain the images,
+	4. then, use the absolute path to the image jpg, or the relative path **(only if in the same folder as your code)** in the parenthesis shown above as *(image.jpg)*
 10. Source Link :	[Source for guide](https://www.markdownguide.org/cheat-sheet/)
 11. Crossing out: 	~~crossed out~~
 
