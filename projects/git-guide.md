@@ -96,3 +96,8 @@
 	- this request can be approved, permanently denied, or denied until further changes are made.
 
 2. SSH authentication to repositories
+
+3. git rm --cached
+	- removes from git tracking. 
+	- the file still exists, it just won't be on github for everyone to see.
+	- still have to git commit
