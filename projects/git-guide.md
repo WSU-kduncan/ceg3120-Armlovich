@@ -70,6 +70,8 @@
 	- git checkout (branch name) to change branches
 	
 11. checkout
+	- changes your working branch from your current branch to another branch.
+	- git checkout (branch name) 	
 
 12. init
 
@@ -90,5 +92,7 @@
 
 #### GitHub
 1. pull requests
+	- sets up requests for a group to look over the content stored on a branch and decide whether or not it is up to par
+	- this request can be approved, permanently denied, or denied until further changes are made.
 
 2. SSH authentication to repositories
