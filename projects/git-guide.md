@@ -1,17 +1,20 @@
 # Markdown guide
-1.  heading 		# H1
-			## H2 ... etc
-2.  Bold           	**bold text**
-3.  Italic		*italicized text*
-4.  Blockquote		> blockquote
-5.  Ordered List	1. first item
- 			2. Second item
-6.  Unordered List	- First item
-7.  Code		`code`
-8.  Link		[Links](https://www.example.com)
-9.  Image		![alt text](image.jpg)
-10. Source Link		[Source for guide](https://www.markdownguide.org/cheat-sheet/)
-11. Crossing out	~~crossed out~~
+1.  heading 	
+# H1
+## H2 ... etc
+2.  Bold :           	**bold text**
+3.  Italic :		*italicized text*
+4.  Blockquote :	> blockquote
+5.  Ordered List :	
+	1. first item
+	2. Second item
+6.  Unordered List : - (item; see below)	
+	- First item
+7.  Code :		`code`
+8.  Link :		[Links](https://www.example.com)
+9.  Image :		![alt text](image.jpg)
+10. Source Link :	[Source for guide](https://www.markdownguide.org/cheat-sheet/)
+11. Crossing out: 	~~crossed out~~
 
 ## command line git:
 1. status
