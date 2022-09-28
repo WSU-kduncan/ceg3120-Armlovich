@@ -4,7 +4,7 @@
    - ![Successful VPC](./images/VPC_creation.PNG)
 
 2. Create a subnet tagged with "Armlovich-Subnet" specified with a /28 IP range and attached to VPC
-   - ![Successfuly connected subnet](./images/connected-subnet.PNG)
+   - ![Successfuly connected subnet](./images/connected_subnet.PNG)
 
 3. Create an internet gateway tagged with "Armlovich-gw" attched to VPC associated with the subnet.
    - ![Successfully connected and associated gateway](./images/internet_gateway.PNG)
